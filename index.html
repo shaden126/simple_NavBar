@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAV BAR</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        body{
+            background: linear-gradient(#050505,#251f25);
+            height: 100vh;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+        }
+        section{
+            background-image:url('stars1.png');
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul{
+            text-align: center;
+        }
+        ul:hover li a{
+            opacity: 0;
+        }
+        ul li{
+            list-style: none;
+            margin: 13px 0;
+        }
+        ul li a{
+            color:aliceblue;
+            text-decoration:none;
+            font-size:20px;
+            font-weight: 100;
+            letter-spacing: 3px;
+            background: blue;
+            padding: 6px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            width: 200px;
+            transition:1.4s;
+            text-transform: uppercase;
+
+        }
+        ul li a:hover {
+            transform:scale(1.5);
+            background: #5353ff;
+            opacity: 1;
+
+        }
+  
+
+    </style>
+</head>
+<body>
+    <section>
+        <ul>
+            <li data-text="Mercury"><a href="#">Mercury</a></li>
+            <li data-text="Venus is a planet similar in size to Earth but with a drastically different environment. It has a thick atmosphere, extreme surface temperatures, and a diverse range of geological features. Further exploration is necessary to fully understand the planet's unique characteristics and its potential for supporting life."><a href="#">Venus</a></li>
+            <li data-text="Earth is a unique and diverse planet that supports a wide array of life forms. It has a dynamic surface, a life-sustaining atmosphere, and abundant water, making it an exceptional celestial body in our solar system."><a href="#">Earth</a></li>
+            <li data-text="Mars is a fascinating planet known for its reddish appearance and diverse surface features. It has a thin atmosphere, cold climate, and a history of water presence. Exploration missions continue to unravel the mysteries of Mars and the possibility of life beyond Earth."><a href="#">Mars</a></li>
+            <li data-text="Jupiter is the largest planet in our solar system, with a turbulent atmosphere, powerful storms, and a fascinating system of moons. Its immense size and unique characteristics make it a captivating subject of scientific study and exploration."> <a href="#">Jupiter</a></li>
+            <li data-text="Saturn is a remarkable planet known for its magnificent ring system, diverse moons, and fascinating atmosphere. Its unique features and ongoing exploration missions continue to reveal new insights about this beautiful gas giant."> <a href="#">Saturn</a></li>
+            <li data-text="Uranus is an enigmatic planet with a unique tilt, a distinct bluish-green color due to its methane-rich atmosphere, and a system of rings and moons. Further exploration and study of Uranus are needed to deepen our understanding of this intriguing and lesser-explored planet."> <a href="#">Uranus</a></li>
+            <li data-text="Neptune is the eighth planet from the Sun, known for its blue color and extreme weather. It has a dynamic atmosphere with high-speed winds and large storms. It is primarily composed of hydrogen, helium, and ices. Neptune has faint rings and 14 moons, including Triton, which orbits in the opposite direction of the planet's rotation. The Voyager 2 mission provided valuable information about Neptune. It is one of the coldest places in our solar system, and future missions are being considered to explore it further."> <a href="#">Neptune</a></li>
+        </ul>
+
+
+
+
+    </section>
+    
+</body>
+</html>
